@@ -1,0 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* -------------------------------------------------------------------------- */
+/*                               CSS RESET ABOVE                              */
+/* -------------------------------------------------------------------------- */
+html,
+body,
+.App {
+	background-color: #282c34;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.Card {
+	background-color: #f4f5cd;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: 0% auto;
+	padding: 0% auto;
+	padding: 3%;
+	box-shadow: #f4f5cd 0px 0px 3px 3px;
+	display: flex;
+	flex-direction: column;
+	width: 30rem;
+}
+.CardBody {
+	background: #f1f1e0;
+	border: black solid 1px;
+}
+.CardBody h3 {
+	padding: 1%;
+}
+.CardFooter {
+	background: #f1f1e0;
+	padding: 3% 5% 5% 5%;
+	border: black solid 1px;
+}
+.Card h1 {
+	font-size: 180%;
+}
+.Card h2 {
+	font-size: 130%;
+}
+.Card h3 {
+	font-size: 100%;
+}
+.Card span {
+	margin: 0% auto;
+}
+.CardFooter {
+	display: flex;
+}
+#link {
+	text-align: left;
+}
+#web {
+	text-decoration: none;
+	text-align: left;
+	color: red;
+	margin: 0% auto;
+}
+#friends,
+#friend {
+	margin: 0% auto;
+	padding: 0% auto;
+	text-align: center;
+}
+#friends {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100%;
+	margin-top: 2%;
+	background-color: #f1f1e0;
+}
+#friends img {
+	width: 30%;
+	margin: 0% auto;
+	padding: 5%;
+}
+#friend {
+	width: 100%;
+	margin: 0% auto;
+	padding: 0% auto;
+	background: #f1f1e0;
+	height: 8rem;
+}
+#friend:hover {
+	width: 190%;
+	background: #f1f1e0;
+	padding: 2%;
+}
+#button {
+	padding: 1%;
+	background-color: #f1f1e0;
+	box-shadow: #eeeed7 0px 0px 8px 8px;
+	width: 25%;
+	margin: 0% auto;
+	margin-top: 2%;
+}
+
+#left {
+	text-align: left;
+}
+#right {
+	text-align: right;
+}
+*.hide {
+	display: none;
+	box-shadow: none;
+}
